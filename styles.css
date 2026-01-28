@@ -7,7 +7,7 @@
 body {
   font-family: 'Inter', sans-serif;
   color: #0f0f0f;
-  background-image: url("../assets/royal-chai.jpeg");
+  background-image: url("./bg.jpeg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -133,3 +133,4 @@ body {
   font-size: 20px;
   margin: 0 10px;
 }
+
