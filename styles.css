@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #0f0f0f;
+  background-image: url("../assets/royal-chai.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* NAVBAR */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  background-color: #fcffff;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.brand-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+
+.tagline {
+  font-size: 12px;
+  color: #d4af37;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 22px; /* closer together */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #151515;
+  font-size: 14px;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content {
+  position: relative;
+  text-align: center;
+  max-width: 600px;
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid #d9f80d;
+  border-width: 3px;
+  color: #ffffff;
+  padding: 6px 14px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #fbfb0c;
+}
+
+/* EMAIL FORM */
+.email-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.email-form input {
+  padding: 12px;
+  width: 260px;
+  border: none;
+}
+
+.email-form button {
+  padding: 12px 20px;
+  background: #d4af37;
+  border: none;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  background: #f2f0ef;
+  padding: 30px;
+  text-align: center;
+}
+
+.socials {
+  margin-bottom: 10px;
+}
+
+.socials a {
+  color: #0d0d0c;
+  font-size: 20px;
+  margin: 0 10px;
+}
